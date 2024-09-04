@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+.home {
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 80px;
+    max-width: 68.75rem;
+}
+
+.text h1 {
+    color: white;
+    font-size: 50px;
+    padding: 2rem;
+}
+.text a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+.home img {
+    margin: 8em 0 8em 8em;
+    width: 350px;
+    border-radius: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        align-items: center;
+        align-content: center;
+        border-top: 80px;
+        flex-direction: column; /* Empilhando os itens na vertical */
+        padding: 24px 8px; /* Ajustando o espaçamento nas laterais */
+    }
+
+    .text {
+        padding: 120px 0px 30px 0px;
+    }
+
+    .home img {
+        margin: 0;
+        width: 80%;
+        /* margin-bottom: 20px; Aumentando o espaçamento entre os itens do menu */
+    }
+}

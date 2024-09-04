@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+/* .navbarBody {
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    align-items: center;
+} */
+
+.navbar {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 80rem;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1b1b1b;
+    padding: 1.5rem 4.6rem; /* 10px de padding no topo e na base, 85px nas laterais */
+    position: fixed; /* Tornando a barra de navegação fixa na parte superior */
+    top: 0; /* Posicionando-a no topo da página */
+    border-radius: 0px 0px 8px 8px;
+    z-index: 1000;
+}
+
+.medias {
+    display: inline-block;
+    padding: 30px;
+    border-left: 6rem;
+}
+
+/* Estilizando a lista de links do menu */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando cada item de menu */
+.navbar li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+/* Estilizando os links do menu */
+.navbar a {
+    font-family: "IBM Plex Mono", monospace;
+    text-decoration: none;
+    color: #9c9c9c;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6600;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 1.5rem 0rem;
+    }
+
+    .navbar li {
+        margin-bottom: 20px;
+    }
+}
