@@ -11,7 +11,7 @@ const Navbar = (props) => {
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/">Tecnologias</a>
+                    <a href="#bodyTecs">Tecnologias</a>
                 </li>
                 <li>
                     <a href="/">Projetos</a>
@@ -25,7 +25,7 @@ const Navbar = (props) => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <AiFillLinkedin />
+                        <AiFillLinkedin size={30} />
                     </a>
                 </li>
                 <li>
@@ -35,7 +35,7 @@ const Navbar = (props) => {
                         rel="noreferrer"
                     >
                         {" "}
-                        <AiFillGithub />{" "}
+                        <AiFillGithub size={30} />{" "}
                     </a>
                 </li>
             </ul>

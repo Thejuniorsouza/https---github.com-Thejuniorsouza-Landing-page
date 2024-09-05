@@ -1,0 +1,107 @@
+/* GridProject */
+
+.GridContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 3.5rem;
+}
+
+.col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1 img {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Details */
+
+.detailsContainer {
+    /* display: flex;
+    flex-direction: row; */
+    gap: 20px;
+    height: 30rem;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsContainer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.detailsContainer p {
+    margin-bottom: 20px;
+}
+
+.details-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.detailContent {
+    justify-content: center;
+}
+
+.btn a {
+    margin: 3rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.textDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 3rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    color: #9c9c9c;
+}
+
+@media screen and (max-width: 768px) {
+    .GridContainer {
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0 1.5rem;
+    }
+
+    .textDetail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 3rem;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 15px;
+        color: #9c9c9c;
+    }
+
+    .btn a {
+        margin: 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+}
