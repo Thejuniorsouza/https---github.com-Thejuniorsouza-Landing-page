@@ -1,17 +1,15 @@
 import React from "react";
 import "./GitHubProjects.css";
-// import imgCard1 from "../../assets/previewCard1.png";
-// import Button from "../Button/Button";
-// import { FaGithub } from "react-icons/fa6";
 import AjudaFortalezaDetails from "../AjudaFortaleza/AjudaFortalezaDetails";
 import BibliotecaOnline from "../BibliotecaOnline/BibliotecaOnline";
 import FoodScript from "../FoodScript/FoodScript";
+import Footer from "../Footer/Footer";
 
 const GitHubProjectSection = () => {
     return (
         <div className="github-projects">
             <section className="headerProject">
-                <div class="custom-shape-divider-top-1725571618">
+                <div class="custom-shape-divider-top-1725584300">
                     <svg
                         data-name="Layer 1"
                         xmlns="http://www.w3.org/2000/svg"
@@ -48,72 +46,11 @@ const GitHubProjectSection = () => {
                 </section>
 
                 <FoodScript />
+                <div className="footer"></div>
             </section>
+            <Footer />
         </div>
     );
 };
-
-// SEGUNDA TENTATIVA DE CÓDIGO -----------------------------
-// function GitHubProjectSection({ project }) {
-//     const handleClick = () => {
-//         alert("Botão apertado!");
-//     };
-//     return (
-// <div>
-//     <GridProject
-//         coluna1={imagemAjuda}
-//         coluna2={ajudaFortalezaDetails}
-//     />
-//     <GridProject coluna1={detailsX}} coluna2={imagemX}/>
-//     <GridProject coluna1={imagem}} coluna2={detail}/>
-// </div>
-
-// CÓDIGO ORIGINAL --------------------------------------
-// <div className="parent">
-//     <div className="imgCard1">
-//         <a
-//             href="https://ajuda-fortaleza-app.vercel.app/"
-//             target="_blank"
-//             rel="noreferrer"
-//         >
-//             <img src={imgCard1} alt="projeto"></img>
-//         </a>
-//     </div>
-
-//     <div className="textCard1">
-//         <p>
-//             Lorem Ipsum is simply dummy text of the printing and
-//             typesetting industry. Lorem Ipsum has been the industry's
-//             standard dummy text ever since the 1500s, when an unknown
-//             printer took a galley of type and scrambled it to make a
-//             type specimen book. It has survived not only five centuries,
-//             but also the leap into electronic typesetting, remaining
-//             essentially unchanged.
-//         </p>
-//         <div className="btn-card">
-//             <Button
-//                 color="blue"
-//                 icon={FaGithub}
-//                 onClick={handleClick}
-//                 text="Site"
-//                 id="btn btn-site"
-//             />
-//             <Button
-//                 color="gray"
-//                 onClick={handleClick}
-//                 text="GitHub"
-//                 id="btn btn-github"
-//             />
-//         </div>
-//     </div>
-
-/* <div className="textCard2"> </div>
-            <div className="imgCard2"> </div>
-            <div className="imgCard3"> </div>
-            <div className="textCard3"> </div> */
-
-// </div>
-//     );
-// }
 
 export default GitHubProjectSection;

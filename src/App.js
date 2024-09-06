@@ -4,8 +4,7 @@ import Navbar from "./components/Navbar/index.js";
 import Home from "./components/Home/index.js";
 import Tecnologies from "./components/Tecnologies/index.js";
 import GitHubProjectSection from "./components/GitHubProjects/GitHubProjects.js";
-// import GridProject from "../src/components/utils/GridProject.js";
-// import Details from "./components/utils/Details.js";
+// import Footer from "./components/Footer/Footer.js";
 
 function App() {
     return (
@@ -15,6 +14,7 @@ function App() {
                 <Home />
                 <Tecnologies />
                 <GitHubProjectSection />
+                {/* <Footer /> */}
             </div>
         </div>
     );

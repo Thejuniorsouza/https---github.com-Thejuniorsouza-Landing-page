@@ -1,3 +1,6 @@
+.github-projects {
+    background-color: white;
+}
 .imgCard1 {
     opacity: 1;
     transition: opacity 1s ease 0s;
@@ -32,13 +35,6 @@ img {
     color: #9c9c9c;
 }
 
-/* .btn a {
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-} */
-
 .btn-card {
     margin-top: 5rem;
     display: flex;
@@ -48,7 +44,7 @@ img {
 .headerProject {
     padding: 0;
 }
-.custom-shape-divider-top-1725571618 {
+.custom-shape-divider-top-1725584300 {
     /* position: absolute; */
     top: 0;
     left: 0;
@@ -57,15 +53,25 @@ img {
     line-height: 0;
 }
 
+.custom-shape-divider-top-1725584300 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1725584300 .shape-fill {
+    fill: #080808;
+}
+
 /* FADE DIVIDER */
 
 .page {
     padding: 40px;
 }
 
-.dashed-divider,
-.repeating-divider,
-.image-divider {
+.dashed-divider {
     margin: 20px 0;
 }
 
@@ -74,7 +80,16 @@ img {
     border-bottom: 3px dashed;
 }
 
+.footer {
+    padding: 8rem 0 0 0;
+}
+
 @media screen and (max-width: 768px) {
+    .headerProject {
+        padding: 0;
+        background-color: white;
+    }
+
     img {
         height: 20rem;
         width: 25rem;

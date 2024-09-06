@@ -1,7 +1,6 @@
 import React from "react";
 import "./Style.css";
 import Button from "../Button/Button";
-// import { FaGithub } from "react-icons/fa6";
 
 function Details({ title, description, repoLink, liveLink }) {
     return (
@@ -11,17 +10,15 @@ function Details({ title, description, repoLink, liveLink }) {
                 <p className="textDetail">{description}</p>
                 <div className="details-buttons">
                     <Button
-                        color="#007BFF"
+                        color="gray"
                         text="Repositório"
-                        onClick={() => (window.location.href = repoLink)}
-                        id="btn btn-site"
+                        onClick={() => window.open(repoLink, "_blank")}
                         className="btn"
                     />
                     <Button
                         text="Ver Projeto"
-                        color="#28A745"
-                        onClick={() => (window.location.href = liveLink)}
-                        id="btn btn-github"
+                        color="#007BFF"
+                        onClick={() => window.open(liveLink, "_blank")}
                         className="btn"
                     />
                 </div>
